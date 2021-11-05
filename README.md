@@ -18,4 +18,10 @@ Getting "Error: Could not symlink" messages?
 
 `brew link --force --overwrite node@14`
 
+## NPM
+
+Check for outdated global packages:
+
+`npm outdated -g --depth=01` 
+
 
